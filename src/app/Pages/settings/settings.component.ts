@@ -38,7 +38,7 @@ export class SettingsComponent implements OnInit {
     'Temperatura',
     'Humedad Ambiente',
     'Humedad del Suelo',
-    'CO<sub>2</sub>',
+    'CO2',
     'Radiación Solar',
   ];
   unity: string = '-';

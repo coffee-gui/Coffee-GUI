@@ -81,7 +81,7 @@ export class VariablesComponent implements OnInit {
         data[0].payload.doc.data().dateAndTime.seconds * 1000 +
           data[0].payload.doc.data().dateAndTime.nanoseconds / 1000000
       );
-      this.cards[3].lastMeasureS = data[0].payload.doc.data().measure + ' &#956;mol/s.m&#178;';
+      this.cards[3].lastMeasure = data[0].payload.doc.data().measure + ' &#956;mol/s.m&#178;';
     });
   }
 
